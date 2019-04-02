@@ -1,3 +1,4 @@
+README.md
 setup.py
 test_chmod_xiaoxin/__init__.py
 test_chmod_xiaoxin/test1.py
