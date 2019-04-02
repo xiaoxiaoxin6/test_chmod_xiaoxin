@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="test_chmod_xiaoxin",
-    version="0.0.5",
+    version="0.0.6",
     author="xiaoxin",
     author_email="xiaoxiaoxin6@163.com",
     description="test the right setting of the files",
