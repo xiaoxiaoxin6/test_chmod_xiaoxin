@@ -7,5 +7,6 @@ def test1():
 
 def test2():
     target = os.path.join( os.path.dirname(__file__), 'test2.py')
-    os.execl(sys.executable,'python',target, sys.argv)
+    print("target = %s" %target)
+    os.execl(sys.executable, 'python', target, sys.argv)
 
