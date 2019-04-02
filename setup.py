@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="test_chmod_xiaoxin",
-    version="0.0.4",
+    version="0.0.5",
     author="xiaoxin",
     author_email="xiaoxiaoxin6@163.com",
     description="test the right setting of the files",
@@ -18,4 +18,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points = {
+        'console_scripts': ['test1=test_chmod_xiaoxin.test_chmod_xiaoxin:test1',
+                            'test2=test_chmod_xiaoxin.test_chmod_xiaoxin:test2',
+                           ]
+        }
 )
