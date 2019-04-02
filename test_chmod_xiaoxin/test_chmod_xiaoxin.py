@@ -6,6 +6,6 @@ def test1():
     os.execv(target, sys.argv)
 
 def test2():
-    target = os.path.join("python ", os.path.dirname(__file__), 'test2.py')
+    target = os.path.join("python "+ os.path.dirname(__file__), 'test2.py')
     os.execv(target, sys.argv)
 
